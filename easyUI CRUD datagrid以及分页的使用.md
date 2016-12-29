@@ -40,7 +40,7 @@
     <script type="text/javascript">
         $(function(){
             $('#dg').edatagrid({
-                url: "findNewsByTopic.do?topic=111",//这里的url地址可以换成你具体的controller映射地址
+                url: "findNewsByTopic.do?topic=111",//查询数据请求地址，这里的url地址可以换成你具体的controller映射地址
                 saveUrl: 'save_user.php',
                 updateUrl: 'update_user.php',
                 destroyUrl: 'destroy_user.php',
