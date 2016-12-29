@@ -32,7 +32,7 @@
         </thead>
     </table>
     <div id="toolbar">
-        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:$('#dg').edatagrid('addRow')">添加</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true"  onclick="javascript:$('#dg').edatagrid('addRow')">添加</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="javascript:$('#dg').edatagrid('destroyRow')">Destroy</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="javascript:$('#dg').edatagrid('saveRow')">Save</a>
         <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-undo" plain="true" onclick="javascript:$('#dg').edatagrid('cancelRow')">Cancel</a>
@@ -40,7 +40,7 @@
     <script type="text/javascript">
         $(function(){
             $('#dg').edatagrid({
-                url: "findNewsByTopic.do?topic=111",查询数据请求地址，换成你具体的controller映射地址
+                url: "findNewsByTopic.do?topic=111",//查询数据请求地址，换成你具体的controller映射地址
                 saveUrl: 'save_user.php',
                 updateUrl: 'update_user.php',
                 destroyUrl: 'destroy_user.php',
